@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+    <title>To do list</title>
+
+</head>
+
+<body>
+
+    <!-- HEADER WITH BUTTONS -->
+    <header>
+        <h1><span>T</span>O <span>D</span>O <span>L</span>IST</h1>
+        <nav>
+            <!-- ACCORDEON -->
+            <h2>HOW TO USE THE TO DO LIST</h2>
+            <ul class="accordeon_open">
+                <li class="help">Press one of the icons above to sort your tasks through the day.</li>
+                <li class="help">Now create a name for your task.</li>
+                <li class="help"> Click on your task to cross it out.</li>
+                <li class="help"> To delete a task press X.</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <!-- STEP 1 TO MAKE THE LIST -->
+        <article class="buttons">
+            <button class="btn">
+                <img src="/pictures/administration.gif" alt="administration">
+                <p>ADMINISTRATION</p>
+            </button>
+            <button class="btn">
+                <img src="/pictures/plant.gif" alt="housework">
+                <p>HOUSE CHORES</p>
+            </button>
+            <button class="btn">
+                <img src="/pictures/shopping-cart.gif" alt="grocery list">
+                <p>GROCERY LIST</p>
+            </button>
+        </article>
+        <article class="container">
+            <!-- STEP 2 BOX TO INPUT NEW ITEM -->
+            <div class="add_item">
+                <input type="text" id="box" placeholder="exemple : Doing laundry">
+                <button class="btn1" id="press">Add</button>
+            </div>
+            <!-- ADDED ITEMS -->
+            <ul class="list" id="administration">
+                <li>
+                </li>
+            </ul>
+            <ul class="list" id="house chore">
+                <li>
+                </li>
+            </ul>
+            <ul class="list" id="grocery">
+                <li>
+                </li>
+            </ul>
+        </article>
+    </section>
+
+    <footer>
+        <hr>
+        <nav class="social">
+            <a href="https://www.linkedin.com/"><img src="/pictures/002-linkedin-logo.svg" alt="ADMINISTRATION"></a>
+            <a href="https://github.com/Sol-Ha/"><img src="/pictures/001-github.svg" alt="HOUSEWORK"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
