@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Hello Darling";
+    src: url(/fonts/Hello\ Darling.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    padding: 3%;
+}
+
+h1 {
+    font-family: "Hello Darling";
+    font-size: 2.3em;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+span {
+    color: rgb(17, 179, 182);
+}
+
+h2 {
+    background-color: rgb(17, 179, 182);
+    font-size: 0.9em;
+    font-family: "Hello Darling";
+    padding-left: 5%;
+    padding-top: 2%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.accordeon_open {
+    background-color: rgb(235, 232, 228);
+    padding: 5%;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.help {
+    padding-bottom: 2%;
+}
+
+::placeholder {
+
+    color: rgb(133, 122, 122);
+    font-style: italic;
+}
+
+.btn1 {
+    width: 150px;
+    height: 32px;
+    margin-top: 3%;
+    background-color: white;
+    font-size: 0.6em;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: rgb(17, 179, 182);
+}
+/* FOOTER */
+footer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+hr{
+    border-top: 1px dotted;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.social img{
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 100px 100px, rgba(0, 0, 0, 0.15) 0px 5px 5px;
+}
+
+/* PC */
+@media screen and (min-width: 480px) {
+
+body{
+    width: 90%;
+    margin: auto;
+}
+/* ARTICLE BUTTONS*/
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.btn {
+    width: 20%;
+    height: 290px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.6em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 100px 100px, rgba(0, 0, 0, 0.15) 0px 5px 5px;
+}
+
+.btn img {
+    width: 60%;
+}
+
+}
+
+/* PHONE */
+@media screen and (max-width: 480px) {
+
+/* ARTICLE BUTTONS*/
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.btn {
+    width: 25%;
+    height: 90px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 0.6em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 100px 100px, rgba(0, 0, 0, 0.15) 0px 5px 5px;
+}
+
+.btn img {
+    width: 60%;
+}
+
+p{
+    padding-top: 5%;
+    font-weight: 600;
+}
+
+.add_item{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+input {
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    border: 1%;
+    border-style: ridge;
+    border-color: black;
+}
+}
